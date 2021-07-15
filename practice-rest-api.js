@@ -100,15 +100,6 @@ app.delete('/users/:id', function(req, res, next){
 })
 
 
-// feel free to use any built-in functions (including ES6 functions)
-// don't use any external libraries (no more require() statements)
-
-
-
-
-// if you finish early, start adding data validation. don't insert values other
-// than name/email/pw, reject creations if they don't have an email and pw, etc.
-
 var server = app.listen(3000);
 console.log('Listening at http://localhost:%s in %s mode',
     server.address().port, app.get('env'));
