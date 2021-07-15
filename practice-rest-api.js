@@ -31,7 +31,6 @@ var users = [
 // clients should be able to create new users, get all users, get a single user,
 
 // create a new users
-// to check - http://localhost:3000/create?name=Dami+Oye&email=dd@gmail.com&password=123
 app.post('/create', function(req, res, next){
   const { name, email, password } = req.body;
   if(typeof name !== 'string'){
